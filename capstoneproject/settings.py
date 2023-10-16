@@ -65,7 +65,7 @@ MIDDLEWARE = [
 ## Variable CORS_ALLOW_ALL_ORIGINS is set to True to allow unrestricted access to the API.
 CORS_ALLOW_ALL_ORIGINS = True
 
-ROOT_URLCONF = 'capstoteproject.urls'
+ROOT_URLCONF = 'capstoneproject.urls'
 
 TEMPLATES = [
     {
@@ -83,7 +83,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'capstoteproject.wsgi.application'
+WSGI_APPLICATION = 'capstoneproject.wsgi.application'
 
 
 # Database

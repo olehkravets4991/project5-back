@@ -9,4 +9,4 @@ class capsfoodSerializer(serializers.HyperlinkedModelSerializer):
         # model to serialize
         model = Capsfood
         # fields to show in json
-        fields = ('id', 'subject', 'details')
+        fields = ('id', 'name', 'address', 'food', 'notes', 'picture')
